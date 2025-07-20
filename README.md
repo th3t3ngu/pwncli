@@ -13,4 +13,4 @@ Simple script in python3 to access [Have I been Pwnd](https://haveibeenpwned.com
       --mail MAIL   Check a single mail address
       --list LIST   Check a .txt with mail addresses (one address per line)
 
-Getting started: run `./pwncli.py --manage-key` and insert your API-Key. Run this command again to show and/or manage your installed Key.
+Getting started: run `./pwncli.py --manage-key` and insert your API-Key. The key ist stored in `$HOME/.config/pwncli/api_key.txt`. Run the command again to show and/or manage your installed Key.
