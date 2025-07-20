@@ -81,7 +81,7 @@ def check_list(file_path):
             time.sleep(4) # otherwise Have I been Pwnd answers with a 429 
 
 def main():
-    parser = argparse.ArgumentParser(description="PwnCli – Checking mails via Have I Been Pwned API")
+    parser = argparse.ArgumentParser(description="PwnCli – Checking if mails appeared in data breaches via Have I Been Pwned API")
     parser.add_argument('--manage-key', action='store_true', help='show API-Key and/or configure')
     parser.add_argument('--mail', type=str, help='Check a single mail address')
     parser.add_argument('--list', type=str, help='Check a .txt with mail addresses (one address per line)')
