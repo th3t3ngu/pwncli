@@ -1,5 +1,5 @@
 # pwncli
-Simple script in python3 to access [Have I been Pwnd](https://haveibeenpwned.com) via its [API](https://haveibeenpwned.com/api/v3) to check wether or not mail address(es) have occured in data breaches. Needs a valid API-key and an active subscription to work.
+Simple script in python3 to access [Have I been Pwnd](https://haveibeenpwned.com) via its [API](https://haveibeenpwned.com/api/v3) to check whether or not mail address(es) have occured in data breaches. Needs a valid API-key and an active subscription to work.
 
 # Usage
 
